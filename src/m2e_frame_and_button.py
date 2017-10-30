@@ -18,8 +18,14 @@ def main():
     frame1 = ttk.Frame(root, padding=10)
     frame1.grid()
 
+    frame2 = ttk.Frame(root, padding = 10)
+    frame2.grid()
+
     go_forward_button = ttk.Button(frame1, text='Forward')
     go_forward_button.grid()
+
+    go_backward_button = ttk.Button(frame2, text='Backward')
+    go_backward_button.grid()
 
     root.mainloop()
 
